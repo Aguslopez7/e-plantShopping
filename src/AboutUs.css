@@ -1,33 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 .about-us-container {
-    width: 1000px;
+    width: 50rem;
+    height: 25rem;
+    font-family: 'Quicksand', sans-serif;
     /* margin: 0 auto; */
-    /* padding: 20px; */
-    /* background-color: red; */
+    padding: 25px;
+    box-sizing: border-box;
+    border: 8px double #88a65e;
+    border-radius: 8px;
     text-align: justify;
-  }
-  
-  .about-us-heading {
+}
+
+.about-us-container p {
+    white-space: normal;
+    /* Permite el wrap de texto */
+    word-wrap: break-word;
+    /* Ajusta palabras largas */
+    overflow-wrap: break-word;
+    /* Compatibilidad adicional */
+}
+
+.about-us-heading {
     font-size: 32px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
-  }
-  
-  .about-us-description {
+}
+
+.about-us-description {
     font-size: 18px;
     color: #666;
     margin-bottom: 30px;
     text-align: center;
-  }
-  
-  .about-us-content {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-  .plant_logo_right{
-    text-align: right;
-  }
+}
 
-  .plant_logo_left{
+.about-us-content {
+    font-size: 16px !important;
+    margin-bottom: 20px;
+}
+
+.plant_logo_right {
+    text-align: right;
+}
+
+.plant_logo_left {
     text-align: left;
-  }
+}
